@@ -5,35 +5,34 @@ This lab provided an excellent gateway into the world of soldering. Due to time 
 ### **1. Preparation and Workspace Setup**
 I began by organizing my workstation. Methodically laying out the components allowed me to clearly distinguish between the various resistors, headers, and boards, ensuring a smooth assembly process.
 
-![The initial setup](20251008_153655.jpg)
+<img src="20251008_153655.jpg" alt="The initial setup" style="width: 30%; height: auto; display: inline-block; margin-right: 10px;" />
 
 ### **2. Initial Challenges and Safety**
-I set my soldering iron to approximately **300°C** and began the assembly. Early on, I realized my ergonomics were lacking; I was holding the solder too close to the iron’s tip, which significantly increased the risk of burns.
+I set my soldering iron to approximately **300°C** and began the assembly. Early on, I realized my ergonomics were lacking; I was holding the solder too close to the iron’s tip, which significantly increased the risk of burns. Unfortunately, poor positioning led to a minor burn. It served as a quick, albeit painful, lesson in the importance of proper tool handling and spatial awareness when working with high temperatures.
 
-![Getting started](20251008_164107.jpg)
-
-Unfortunately, poor positioning led to a minor burn. It served as a quick, albeit painful, lesson in the importance of proper tool handling and spatial awareness when working with high temperatures.
-
-![Whoops](20251008_173813.jpg)
+<div style="display: flex; gap: 10px;">
+  <img src="20251008_164107.jpg" alt="Getting started" style="width: 30%; height: auto;" />
+  <img src="20251008_173813.jpg" alt="Whoops" style="width: 30%; height: auto;" />
+</div>
 
 ### **3. Technical Hurdles: Desoldering**
 As I progressed, I encountered a major hurdle with pin alignment. One set of pins was soldered significantly crooked, necessitating a desoldering process. This proved to be a meticulous and time-consuming task. With guidance from more experienced peers, I was able to correct the alignment without damaging the PCB pads.
 
-![Progress](20251008_164946.jpg)
+<img src="20251008_164946.jpg" alt="Progress" style="width: 30%; height: auto; display: inline-block; margin-right: 10px;" />
 
 ### **4. Transitions and Final Assembly**
 My stopping point at the lab involved mounting the smaller daughterboards onto the main PCB. After carefully packing my components, I ordered my own soldering kit to ensure I could maintain my momentum at home.
 
-![The form I can expect once complete minus the lack of solder](20251008_171807.jpg)
+<img src="20251008_171807.jpg" alt="The form I can expect once complete minus the lack of solder" style="width: 30%; height: auto; display: inline-block; margin-right: 10px;" />
 
 My equipment arrived on Friday the 10th, and I spent the evening finishing the project in my garage. The "side-to-side" technique I developed earlier paid off, resulting in clean, conductive joints across the remaining pins.
 
 ### **Final Results**
 The completed board is now fully assembled and ready for testing. Despite the steep learning curve and the desoldering setback, I’m satisfied with the final build quality and the skills I gained throughout the process.
 
-**Top View:**
-![Top](20251010_180828.jpg)
-
-**Bottom View:**
-![Bottom](20251010_180836.jpg)
-![Bottom](20251010_181041.jpg)
+**Top & Bottom Views:**
+<div style="display: flex; gap: 10px;">
+  <img src="20251010_180828.jpg" alt="Top" style="width: 30%; height: auto;" />
+  <img src="20251010_180836.jpg" alt="Bottom" style="width: 30%; height: auto;" />
+  <img src="20251010_181041.jpg" alt="Bottom" style="width: 30%; height: auto;" />
+</div>
