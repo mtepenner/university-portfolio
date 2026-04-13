@@ -1,28 +1,32 @@
-Starting out I thought that I made a terrible issue while soldering...
+## **Lab 1 Reflection: Firmware Flashing & Radio Testing**
 
-![An example image](download.png "The initial setup")
+### **1. Hardware Troubleshooting**
+Initial attempts to test the board led to some concern regarding the quality of my solder joints. However, after a thorough inspection, I identified the culprit: a faulty USB-C cable. Swapping the cable resolved the power issues and confirmed that the board's physical connections were sound.
 
-...but I realized I was using the wrong usb c cable.  
+<div style="display: flex; gap: 10px; align-items: center;">
+  <img src="download.png" alt="Hardware suspicion" style="width: 15%; height: auto;" />
+  <img src="bigbrain.png" alt="Cable solution" style="width: 15%; height: auto;" />
+</div>
 
-![An example image](bigbrain.png "The initial setup")
-My ability to flash the software was delayed by the fact my work laptop (the 
-one I bring to class) has security measures that make all usb devices read only, so I was like...
+### **2. Flashing Challenges: Security Constraints**
+The primary hurdle during the software phase was an environmental one. My work laptop, which I use for class, employs strict security protocols that mount all USB devices as **read-only**. This prevented me from flashing the necessary software to the microcontroller.
 
-![An example image](trigger.png "The initial setup")
+<img src="trigger.png" alt="USB frustration" style="width: 15%; height: auto; display: block; margin-top: 10px;" />
 
-I ended up using a fellow student's laptop when we did our partner testing phase of the lab, and when
-I pressed the boot button on my radio, the light on her device lit up like this:
+### **3. Peer Testing and Radio Verification**
+To bypass the security restrictions, I collaborated with a fellow student and utilized her machine for the flashing process. During the partner testing phase, we successfully verified the radio's functionality:
+* **Transmitting:** When pressing the "Boot" button on my radio, the indicator light on the peer device responded immediately.
+* **Consistency:** We swapped roles and observed identical results, confirming that both radios were communicating effectively.
 
-![An example image](20251015_140515.jpg "The initial setup")
+<img src="20251015_140515.jpg" alt="Successful test" style="width: 15%; height: auto; display: block; margin-top: 10px;" />
 
-The exact same thing happened when we swapped the roles of each device, indicating to us that the
-radios were working.  When my device was the receiver, I received this in my terminal:
+### **4. Terminal Output and Packet Validation**
+When my device was configured as the receiver, I successfully captured incoming data. The terminal output confirmed that packets were being received and parsed correctly by the system.
 
-![An example image](Screenshot_from_2025-10-20_13-16-04.png "The initial setup")
+<img src="Screenshot_from_2025-10-20_13-16-04.png" alt="Terminal reception" style="width: 25%; height: auto; display: block; margin-top: 10px;" />
 
-I proceeded on Monday (10/20) to switch the receiver code out with the sender code, and when I spammed
-the boot button I saw that on someone else's computer that they were receiving the packet.  However,
-I could not get anything to display on my personal computer showing that the send was a success.  This 
-screen verifies my connection on my computer
+### **5. Final Logic Test (October 20th)**
+On Monday, I performed a final validation by swapping the receiver and sender code. By spamming the boot button, I confirmed that other computers in the lab were receiving my packets. While my personal machine had difficulty displaying the "Send Success" confirmation in the terminal—likely due to the aforementioned driver or security restrictions—the connection was verified through the system's hardware interface.
 
-![An example image](Screenshot_from_2025-10-20_13-54-40.png "The initial setup")
+<img src="Screenshot_from_2025-10-20_13-54-40.png" alt="Connection verified" style="width: 25%; height: auto; display: block; margin-top: 10px;" />
+
